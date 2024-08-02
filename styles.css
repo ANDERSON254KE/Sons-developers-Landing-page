@@ -447,7 +447,11 @@ button[type="submit"]:hover {
     justify-content: center;
     gap: 10px;
 }
-
-.social-links a img {
+a {
+    color: white; /* Changes the link color to white */
+}
+.social-links a  {
     width: 30px;
+    padding: auto;
+    color: #cdd5db;
 }
